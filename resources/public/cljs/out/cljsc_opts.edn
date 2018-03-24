@@ -1,1 +1,0 @@
-{:main "connect-example.core", :asset-path "cljs/out", :output-to "resources/public/cljs/main.js", :output-dir "resources/public/cljs/out", :optimizations :none, :source-map-timestamp true}
