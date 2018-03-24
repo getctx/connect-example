@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  width: 800px;
+}
+
+div.issue {
+  font-size: 16px;
+  width: 600px;
+  border: solid black 1px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.issue .id {
+  font-weight: bold;
+  float: left;
+  width: 75px;
+  height: 50px;
+  text-align: center;
+  padding: 1em .5em 0 0;
+}
+
+.issue .info {
+  height: 100%;
+}
+
+.issue .summary {
+  font-weight: bold;
+  padding-bottom: 0.5em
+}

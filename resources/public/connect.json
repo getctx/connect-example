@@ -1,0 +1,25 @@
+{
+    "key": "connect-example",
+    "name": "connect-example",
+    "description": "Demo JIRA / Clojure integration",
+    "baseUrl": "https://8df164a9.ngrok.io",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed"
+    },
+    "modules": {
+        "webhooks": [
+            {
+                "event": "jira:issue_created",
+                "url": "/recv"
+            },
+            {
+                "event": "jira:issue_updated",
+                "url": "/recv"
+            }
+        ]
+    },
+    "scopes": ["READ"]
+}
